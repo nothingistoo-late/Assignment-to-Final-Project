@@ -28,7 +28,6 @@ CONSTRAINT [PK_tblUsers] PRIMARY KEY CLUSTERED
 
 DROP TABLE [dbo].[tblUsers];
 
-INSERT [dbo].[tblUsers] ([userID], [fullName], [password], [roleID],[gmail], [address],[status]) VALUES (N'admin', N'Vu Nhat Nam', N'1', N'AD',N'namvn18@gmail.com', N'ho chi minh',1)
 INSERT [dbo].[tblUsers] ([userID], [fullName], [password], [roleID],[gmail],[address], [status]) VALUES (N'user', N'Hoang', N'1', N'US',N'user1@gmail.com',N'ho chi minh',1)
 INSERT [dbo].[tblUsers] ([userID], [fullName], [password], [roleID],[gmail],[address], [status]) VALUES (N'cs112', N'Le Thi B', N'xyz456', N'US',N'lethib@gmail.com',N'ho chi minh',1)
 INSERT [dbo].[tblUsers] ([userID], [fullName], [password], [roleID],[gmail],[address], [status]) VALUES (N'cs113', N'Tran Van C', N'pass789', N'US', N'tranvanc@gmail.com', N'hai phong', 1)
